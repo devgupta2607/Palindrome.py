@@ -5,7 +5,7 @@ def palindrome_check():
         reverse= i + reverse
     if reverse== word:
         print (word,"is a palindrome")
-        return True,word,"is a palindrome"
+        return True,word,"is a palindrome - "
         
     else:
         print(word,"is not a palindrome")
